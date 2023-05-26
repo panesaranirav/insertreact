@@ -1,0 +1,183 @@
+.benner{
+    height: 657px;
+    width: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #4fa3f6 0%, #ab77db 100%);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    height: 500px;
+    width: 600px;
+    border: 0px solid;
+    border-radius: 30px;
+    position: absolute;
+    top: 85px;
+    left: 400px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #5a6bbd90 0%, #dd7ad694 46%, #e834348e,#f8f0f0be 100%);
+
+    font-family: 'Alkatra', cursive;
+    font-family: 'Babylonica', cursive;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+.Firstname{
+    margin-top: 15px;
+}
+.Firstname h1{
+    font-size:35px;
+    color:white;
+    
+}
+.Firstname input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.Lastname{
+    margin-top: 15px;
+}
+.Lastname h1{
+    font-size:35px;
+    color:white;
+}
+.Lastname input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.E-mail{
+    margin-top: 15px;
+}
+.E-mail h1{
+    font-size:35px;
+    color:white;
+}
+.E-mail input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.Password{
+    margin-top: 15px;
+}
+.Password h1{
+    font-size:35px;
+    color:white;
+}
+.Password input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.Button{
+    margin-top: 40px;
+}
+.Button button{
+    height: 40px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #a802e0ec;
+}
+.Button button:hover{
+    background-color:#8EC5FC;
+    color: white;
+    border: none;
+}
+.table1{
+    height: 400px;
+   
+}
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	table { 
+	  	width: 100%; 
+	}
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+}
+
